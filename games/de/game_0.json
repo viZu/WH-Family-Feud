@@ -1,0 +1,30 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Conny",
+          "pnt": 16
+        },
+        {
+          "ans": "Alex Reissigl",
+          "pnt": 13
+        },
+        {
+          "ans": "Matija",
+          "pnt": 11
+        },
+        {
+          "ans": "Miri",
+          "pnt": 10
+        },
+        {
+          "ans": "Reini",
+          "pnt": 10
+        }
+      ],
+      "multiply": 1,
+        "question": "Nenne die:den lustigsten Head-Of"
+    }
+  ]
+}
