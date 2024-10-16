@@ -38,16 +38,20 @@ export default function Round(props) {
   let current_round = props.game.round;
   let round = props.game.rounds[current_round];
   return (
-    <div className="w-auto flex flex-col space-y-1 items-center">
-      <div className="flex flex-row justify-around space-x-2 h-28">
-        <RoundPointTally points={props.game.teams[0].points} />
-        <RoundPointTally
-          points={props.game.point_tracker[props.game.round]}
-          fontWeight="bold"
-        />
-        <RoundPointTally points={props.game.teams[1].points} />
+    <div>
+      <div className="flex justify-end text-5xl text-family-text uppercase font-extrabold space-x-6">
+        <p className="h-full text-center items-center justify-center p-5 flex">
+          {'SUMME'}
+        </p>
+        <div className="h-full text-center items-center justify-center p-5 flex w-30">{props.game.point_tracker[props.game.round]}</div>
       </div>
-
+      <div 
+        className="h-28 font-extrabold text-background text-7xl bg-family-text flex justify-between px-10 mt-20 -mr-10 -ml-8 items-center fixed bottom-0 w-full"
+        >
+        <div>{props.game.teams[0].points}</div>
+        <div>{props.game.teams[1].points}</div>
+      </div>
+    
       <div className="flex flex-row justify-center">
         {round.multiply > 1 ? (
           <div>
