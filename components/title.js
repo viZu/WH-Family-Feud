@@ -27,7 +27,7 @@ export default function Title(props) {
   }
 
   return (
-    <div className="bg-gradient-to-t items-center justify-center from-primary-900 flex via-primary-200 to-primary-900 min-h-screen min-w-screen">
+    <div className="bg-[url('/WH_FD_background.png')] bg-cover items-end justify-center from-primary-900 flex via-primary-200 to-primary-900 min-h-screen min-w-screen">
       <div
         style={{
           width: titleSize,
@@ -36,34 +36,14 @@ export default function Title(props) {
         className="align-middle inline-block"
       >
         <div className="flex flex-col space-y-10">
-          <div className="flex-grow">
-            {props.game.settings.logo_url ? (
-              <img src={`${props.game.settings.logo_url}`} size={titleSize} />
-            ) : (
-                <TitleLogo insert={props.game.title_text} size={titleSize} />
-              )}
-          </div>
-          <div className="flex flex-row justify-center text-center">
-            <p className="text-4xl font-bold p-5 text-foreground rounded bg-secondary-500">
-              {props.game.room}
-            </p>
-          </div>
-          <div className="flex flex-row text-center">
-            {[0, 1].map(function(n) {
+          <div className="flex flex-row text-center m-16">
+          {[0, 1].map(function(n) {
               return (
                 <div className="flex-grow">
-                  <p className="text-4xl flex-grow text-foreground font-bold">
+                  <p className="text-4xl flex-grow text-foreground text-amber-100 font-bold">
                     {" "}
                     {props.game.teams[n].name}
                   </p>
-                  <div className="flex flex-wrap flex-row justify-center">
-                    {returnTeamMates(n).map((m) => (
-                      <div className="bg-secondary-500 m-2 rounded w-32 p-2">
-                        <p className="font-bold text-foreground overflow-hidden text-ellipsis whitespace-nowrap"
-                        >{m}</p>
-                      </div>
-                    ))}
-                  </div>
                 </div>
               );
             })}
