@@ -16,7 +16,7 @@ module.exports = {
         extend: {
           // colors is used here for demonstration purposes
           colors: {
-            background: "white",
+            background: "#403932",
             success: {
               900: "#14532D",
               700: "#15803D",
@@ -51,6 +51,7 @@ module.exports = {
               300: "#93C5FD",
               200: "#BFDBFE",
             },
+            'family-text': "#d4d62f",
             foreground: "black",
             fastm: {
               text: "white",
