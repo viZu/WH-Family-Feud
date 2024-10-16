@@ -7,7 +7,7 @@ export default function QuestionBoard(props) {
   return (
     <div className="flex flex-row items-center justify-center">
       <div
-        className="grid lg:grid-rows-4 lg:grid-flow-col gap-3 flex-grow"
+        className="grid lg:grid-rows-6 lg:grid-flow-col gap-3 flex-grow"
       >
         {props.round.answers.map((x, index) => (
           <div className=" uppercase items-center text-center font-extrabold">
@@ -16,20 +16,20 @@ export default function QuestionBoard(props) {
               <div className="h-full">
                 <div className="flex h-full items-center justify-center">
                   <div className="h-full text-center items-center justify-center p-5 flex w-24">
-                    <p className="text-5xl text-family-text">
+                    <p className="text-3xl text-family-text">
                       {t("number", { count: index + 1})}
                     </p>
                   </div>
                   <div className="flex h-full items-center justify-start px-5 flex-grow">
                     <p
-                      className="text-5xl text-family-text"
+                      className="text-3xl text-family-text"
                     >
-                      {x.ans + '_'.repeat(32 - x.ans.length)}
+                      {x.ans + '_'.repeat(48 - x.ans.length)}
                     </p>
                   </div>
                   <div className="h-full text-center items-center justify-center p-5 flex w-30">
                     <p
-                      className="text-5xl text-family-text"
+                      className="text-3xl text-family-text"
                     >
                       {t("number", { count: x.pnt })}
                     </p>
@@ -41,20 +41,20 @@ export default function QuestionBoard(props) {
               <div className="h-full">
                 <div className="flex h-full items-center justify-center">
                   <div className="h-full text-center items-center justify-center p-5 flex w-24">
-                    <p className="text-5xl text-family-text">
+                    <p className="text-3xl text-family-text">
                       {t("number", { count: index + 1})}
                     </p>
                   </div>
                   <div className="flex h-full items-center justify-start px-5 flex-grow">
                     <p
-                      className="text-5xl text-family-text"
+                      className="text-3xl text-family-text"
                     >
-                      {'_'.repeat(32)}
+                      {'_'.repeat(48)}
                     </p>
                   </div>
                   <div className="h-full text-center items-center justify-center p-5 flex w-30">
                     <p
-                      className="text-5xl text-family-text"
+                      className="text-3xl text-family-text"
                     >
                       {'--'}
                     </p>
