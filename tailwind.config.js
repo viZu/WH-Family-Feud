@@ -16,7 +16,10 @@ module.exports = {
         extend: {
           //font
           fontFamily: {
-            'mono': ['LCD']
+            'mono': ['Ticketing']
+          },
+          letterSpacing: {
+            widest: '10px',
           },
           // colors is used here for demonstration purposes
           colors: {

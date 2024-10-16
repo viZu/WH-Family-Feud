@@ -23,8 +23,8 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "LCD";
-  src: url("/fonts/lcd-font/otf/LCD14.otf");
+  font-family: "Ticketing";
+  src: url("/fonts/ticketing/Ticketing.otf");
   font-style: normal;
   font-display: swap;
 }
