@@ -39,24 +39,42 @@ export default function Round(props) {
   let round = props.game.rounds[current_round];
   return (
     <div>
-      <div className="flex justify-end text-5xl text-family-text uppercase font-extrabold space-x-6">
+      <div className="flex justify-end text-5xl text-family-text uppercase font-extrabold">
         <p className="h-full text-center items-center justify-center p-5 flex">
           {'SUMME'}
         </p>
         <div className="h-full text-center items-center justify-center p-5 flex w-30">{props.game.point_tracker[props.game.round]}</div>
       </div>
-      <div 
+      <div
         className="h-28 font-extrabold text-background text-7xl bg-family-text flex justify-between px-10 mt-20 -mr-10 -ml-8 items-center fixed bottom-0 w-full"
         >
-        <div>{props.game.teams[0].points}</div>
-        <div>{props.game.teams[1].points}</div>
+        <div className="flex items-center space-x-5">
+            <span>{props.game.teams[0].points}</span>
+            <span className="flex justify-center flex-row text-center space-x-2">
+                {Array(props.game.teams[0].mistakes).fill(
+                    <div className="flex-shrink">
+                        <img className="h-16" src="x.png"/>
+                    </div>
+                )}
+            </span>
+        </div>
+          <div className="flex items-center space-x-5">
+              <span className="flex justify-center flex-row text-center space-x-2">
+                  {Array(props.game.teams[1].mistakes).fill(
+                      <div className="flex-shrink">
+                          <img className="h-16" src="x.png"/>
+                      </div>
+                  )}
+              </span>
+              <span>{props.game.teams[1].points}</span>
+          </div>
       </div>
-    
-      <div className="flex flex-row justify-center">
-        {round.multiply > 1 ? (
-          <div>
-            <p className="text-2xl text-start text-foreground">
-              x{t("number", { count: round.multiply })}
+
+        <div className="flex flex-row justify-center">
+            {round.multiply > 1 ? (
+                <div>
+                    <p className="text-2xl text-start text-foreground">
+                        x{t("number", {count: round.multiply})}
             </p>
           </div>
         ) : null}
