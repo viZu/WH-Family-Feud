@@ -15,16 +15,16 @@ export default function QuestionBoard(props) {
               // answered question
               <div className="h-full">
                 <div className="flex h-full items-center justify-center">
-                  <div className="h-full text-center items-center justify-center p-5 flex w-16">
+                  <div className="h-full text-center items-center justify-center p-5 flex w-24">
                     <p className="text-5xl text-family-text">
-                      {t("number", { count: index + 1}) + "."}
+                      {t("number", { count: index + 1})}
                     </p>
                   </div>
                   <div className="flex h-full items-center justify-start px-5 flex-grow">
                     <p
                       className="text-5xl text-family-text"
                     >
-                      {x.ans + '_'.repeat(28 - x.ans.length)}
+                      {x.ans + '_'.repeat(32 - x.ans.length)}
                     </p>
                   </div>
                   <div className="h-full text-center items-center justify-center p-5 flex w-30">
@@ -40,16 +40,16 @@ export default function QuestionBoard(props) {
               // unanswered question
               <div className="h-full">
                 <div className="flex h-full items-center justify-center">
-                  <div className="h-full text-center items-center justify-center p-5 flex w-16">
+                  <div className="h-full text-center items-center justify-center p-5 flex w-24">
                     <p className="text-5xl text-family-text">
-                      {t("number", { count: index + 1}) + "."}
+                      {t("number", { count: index + 1})}
                     </p>
                   </div>
                   <div className="flex h-full items-center justify-start px-5 flex-grow">
                     <p
                       className="text-5xl text-family-text"
                     >
-                      {'_'.repeat(28)}
+                      {'_'.repeat(32)}
                     </p>
                   </div>
                   <div className="h-full text-center items-center justify-center p-5 flex w-30">
