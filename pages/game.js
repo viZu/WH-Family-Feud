@@ -157,7 +157,7 @@ export default function Game(props) {
       );
     } else {
       gameSession = (
-        <div className="flex flex-col space-y-10 py-20 px-10">
+        <div className="flex flex-col space-y-10 py-20 px-10 font-mono">
           <QuestionBoard round={game.rounds[game.round]} />
           <Round game={game} />
         </div>

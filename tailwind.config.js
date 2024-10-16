@@ -14,6 +14,10 @@ module.exports = {
         // put the default values of any config you want themed
         // just as if you were to extend tailwind's theme like normal https://tailwindcss.com/docs/theme#extending-the-default-theme
         extend: {
+          //font
+          fontFamily: {
+            'mono': ['LCD']
+          },
           // colors is used here for demonstration purposes
           colors: {
             background: "#302c06",

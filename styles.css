@@ -22,3 +22,9 @@
   font-style: bold;
   font-display: swap;
 }
+@font-face {
+  font-family: "LCD";
+  src: url("/fonts/lcd-font/otf/LCD14.otf");
+  font-style: normal;
+  font-display: swap;
+}
