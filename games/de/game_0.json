@@ -3,28 +3,28 @@
     {
       "answers": [
         {
-          "ans": "Conny",
-          "pnt": 16
+          "ans": "Butter",
+          "pnt": 41
         },
         {
-          "ans": "Alex Reissigl",
-          "pnt": 13
-        },
-        {
-          "ans": "Matija",
-          "pnt": 11
-        },
-        {
-          "ans": "Miri",
+          "ans": "Schimmel",
           "pnt": 10
         },
         {
-          "ans": "Reini",
-          "pnt": 10
+          "ans": "Ketchup",
+          "pnt": 8
+        },
+        {
+          "ans": "Marmelade",
+          "pnt": 6
+        },
+        {
+          "ans": "Sriracha",
+          "pnt": 5
         }
       ],
       "multiply": 1,
-        "question": "Nenne die:den lustigsten Head-Of"
+        "question": "Nenne etwas, das es immer im Sharing-Kühlschrank gibt"
     }
   ]
 }

@@ -24,7 +24,7 @@ export default function QuestionBoard(props) {
                     <p
                       className="text-5xl text-family-text"
                     >
-                      {x.ans + '_'.repeat(38 - x.ans.length)}
+                      {x.ans + '_'.repeat(46 - x.ans.length)}
                     </p>
                   </div>
                   <div className="h-full text-center items-center justify-center p-5 flex w-30">
@@ -49,7 +49,7 @@ export default function QuestionBoard(props) {
                     <p
                       className="text-5xl text-family-text"
                     >
-                      {'_'.repeat(38)}
+                      {'_'.repeat(46)}
                     </p>
                   </div>
                   <div className="h-full text-center items-center justify-center p-5 flex w-30">

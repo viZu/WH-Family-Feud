@@ -39,7 +39,7 @@ export default function Round(props) {
   let round = props.game.rounds[current_round];
   return (
     <div>
-      <div className="flex justify-end text-5xl text-family-text uppercase font-extrabold">
+      <div className="flex justify-end text-6xl text-family-text uppercase font-extrabold mt-16">
         <p className="h-full text-center items-center justify-center p-5 flex">
           {'SUMME'}
         </p>

@@ -1,0 +1,30 @@
+{
+  "rounds": [
+    {
+      "answers": [
+        {
+          "ans": "Fabian",
+          "pnt": 16
+        },
+        {
+          "ans": "Olgu",
+          "pnt": 9
+        },
+        {
+          "ans": "Barlas",
+          "pnt": 8
+        },
+        {
+          "ans": "Magdalena",
+          "pnt": 6
+        },
+        {
+          "ans": "Sylvia",
+          "pnt": 5
+        }
+      ],
+      "multiply": 1,
+        "question": "Nenne eine:n Willhabinger:in mit den besten Dance-Moves"
+    }
+  ]
+}
