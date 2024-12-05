@@ -1,0 +1,70 @@
+{
+  "rounds": [
+    {
+      "multiply": 1,
+      "question": "Nenne ein Team, das besonders trinkfest ist.",
+      "answers": [
+        {
+          "ans": "Immo",
+          "pnt": 21
+        },
+        {
+          "ans": "Auto & Motor",
+          "pnt": 20
+        },
+        {
+          "ans": "User Support",
+          "pnt": 17
+        },
+        {
+          "ans": "Marktplatz",
+          "pnt": 15
+        },
+        {
+          "ans": "Marketing",
+          "pnt": 7
+        }
+      ]
+    },
+    {
+      "multiply": 2,
+      "question": "Nenne etwas, das sich auf \"will\" reimt.",
+      "answers": [
+        {
+          "ans": "Chill",
+          "pnt": 21
+        },
+        {
+          "ans": "Kill",
+          "pnt": 20
+        },
+        {
+          "ans": "Bill",
+          "pnt": 17
+        },
+        {
+          "ans": "Still",
+          "pnt": 10
+        }
+      ]
+    },
+    {
+      "multiply": 3,
+      "question": "Nenne eine Weihnachtstradition.",
+      "answers": [
+        {
+          "ans": "Wichteln",
+          "pnt": 14
+        },
+        {
+          "ans": "Christbaum schmücken",
+          "pnt": 12
+        },
+        {
+          "ans": "Singen",
+          "pnt": 11
+        }
+      ]
+    }
+  ]
+}
