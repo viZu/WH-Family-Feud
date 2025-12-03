@@ -1,0 +1,134 @@
+{
+  "rounds": [
+    {
+      "multiply": 1,
+      "question": "Nenne ein Tier, dass man für gewöhnlich nicht reitet, du aber gerne reiten würdest.",
+      "answers": [
+        {
+          "ans": "Giraffe",
+          "pnt": 15
+        },
+        {
+          "ans": "Katze",
+          "pnt": 11
+        },
+        {
+          "ans": "Strauß",
+          "pnt": 10
+        },
+        {
+          "ans": "Adler",
+          "pnt": 9
+        },
+        {
+          "ans": "Tiger",
+          "pnt": 8
+        }
+      ]
+    },
+    {
+      "multiply": 1,
+      "question": "Wenn der Weihnachtsmann nicht am Nordpol wohnen würde, wo würde er dann wohnen?",
+      "answers": [
+        {
+          "ans": "Südpol",
+          "pnt": 30
+        },
+        {
+          "ans": "Skandinavien",
+          "pnt": 21
+        },
+        {
+          "ans": "Karibik",
+          "pnt": 13
+        },
+        {
+          "ans": "Floridsdorf",
+          "pnt": 9
+        },
+        {
+          "ans": "Floridsdorf",
+          "pnt": 6
+        }
+      ]
+    },
+    {
+      "multiply": 1,
+      "question": "Nenne den für dich weihnachtlichsten Head-Of",
+      "answers": [
+        {
+          "ans": "Conny",
+          "pnt": 23
+        },
+        {
+          "ans": "Reini",
+          "pnt": 12
+        },
+        {
+          "ans": "Matija",
+          "pnt": 10
+        },
+        {
+          "ans": "Thomas",
+          "pnt": 9
+        },
+        {
+          "ans": "Mercedes",
+          "pnt": 8
+        }
+      ]
+    },
+    {
+      "multiply": 1,
+      "question": "Nenne ein Go-To Restaurant/Lokal fürs Mittagessen wenn man im willhaben Office ist.",
+      "answers": [
+        {
+          "ans": "Kimchi",
+          "pnt": 33
+        },
+        {
+          "ans": "That's Amore",
+          "pnt": 14
+        },
+        {
+          "ans": "Krazy Kitchen",
+          "pnt": 11
+        },
+        {
+          "ans": "Habibi & Hawara",
+          "pnt":10
+        },
+        {
+          "ans": "Noodle Point",
+          "pnt": 8
+        }
+      ]
+    },
+    {
+      "multiply": 1,
+      "question": "Nennen einen Geruch, der dich an Weihnachten erinnert",
+      "answers": [
+        {
+          "ans": "Zimt",
+          "pnt": 56
+        },
+        {
+          "ans": "Lebkuchen",
+          "pnt": 10
+        },
+        {
+          "ans": "Tannenbaum",
+          "pnt": 7
+        },
+        {
+          "ans": "Vanillekipferl",
+          "pnt": 5
+        },
+        {
+          "ans": "Weihrauch",
+          "pnt": 4
+        }
+      ]
+    }
+  ]
+}

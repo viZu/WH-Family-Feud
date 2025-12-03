@@ -1,0 +1,30 @@
+{
+  "rounds": [
+    {
+      "multiply": 1,
+      "question": "Welchen Rat würdest du deinem 15-jährigen Ich geben (...)",
+      "answers": [
+        {
+          "ans": "Kauf Bitcoin / Leg dein Geld an",
+          "pnt": 20
+        },
+        {
+          "ans": "Alles wird gut / besser",
+          "pnt": 15
+        },
+        {
+          "ans": "Genieße dein Leben ",
+          "pnt": 11
+        },
+        {
+          "ans": "Sei du selbst / Meinung anderer egal",
+          "pnt": 9
+        },
+        {
+          "ans": "Weniger Drogen, Alkohol, Rauchen",
+          "pnt": 8
+        }
+      ]
+    }
+  ]
+}

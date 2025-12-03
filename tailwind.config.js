@@ -59,7 +59,7 @@ module.exports = {
               200: "#BFDBFE",
             },
             'family-text': "#d4d62f",
-            foreground: "black",
+            foreground: "#d4d62f",
             fastm: {
               text: "white",
               holder: "black",

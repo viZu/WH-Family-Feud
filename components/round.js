@@ -73,8 +73,8 @@ export default function Round(props) {
         <div className="flex flex-row justify-center">
             {round.multiply > 1 ? (
                 <div>
-                    <p className="text-2xl text-start text-foreground">
-                        x{t("number", {count: round.multiply})}
+                    <p className="text-5xl text-start text-foreground family-text">
+                        PUNKTE x{t("number", {count: round.multiply})}
             </p>
           </div>
         ) : null}
